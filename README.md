@@ -4,6 +4,10 @@
 
 This text is being prepared as part of the [Greek Learner Texts Project](https://greek-learner-texts.org/).
 
+## Contributors
+
+* {{ list of people who have contributed to this repo }}
+
 ## Source
 
 {{ indicate original source(s) of text: scans or existing transcriptions }}
