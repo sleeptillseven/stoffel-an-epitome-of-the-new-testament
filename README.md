@@ -1,20 +1,22 @@
-# {{ NAME OF TEXT }}
+# Stoffel's Epitome Of The New Testament
 
-{{ describe what is being done, the process being followed, and who is involved in the work }}
+A repository for a digitisation effort of _Stoffel's Epitome Of The New Testament. A HTML version is provided [here](https://sleeptillseven.github.io/stoffels-epitome-of-the-new-testament/).
 
 This text is being prepared as part of the [Greek Learner Texts Project](https://greek-learner-texts.org/).
 
 ## Contributors
 
-* {{ list of people who have contributed to this repo }}
+* Christoph Jasinski
 
 ## Source
 
-{{ indicate original source(s) of text: scans or existing transcriptions }}
+* https://archive.org/details/epitometeskaines00stof
+* https://archive.org/details/epitometeskaines01stof
 
 ## Progress
 
-{{ indicate progress, or remove entire section if done }}
+* OCR 100% done
+* correction 0% done
 
 ## License
 
