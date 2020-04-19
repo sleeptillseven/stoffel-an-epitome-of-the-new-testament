@@ -32,13 +32,13 @@ for WORK in WORK_LIST:
     </head>
     <body>
       <div class="container">
-      <nav>&#x2191; <a href="./">Edward's Salamis in Easy Attic Greek</a></nav>
+      <nav>&#x2191; <a href="./">Stoffel's An Epitome Of The New Testament</a></nav>
     """
       #<h1 lang="en">{TITLE}</h1>
 
     FOOTER = """\
         <br/><br/>
-        <nav>&#x2191; <a href="./">Edward's Salamis in Easy Attic Greek</a></nav>
+        <nav>&#x2191; <a href="./">Stoffel's An Epitome Of The New Testament</a></nav>
         <br/>
         <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
         <p>The source is available at <a href="https://github.com/sleeptillseven/edwards-salamis-in-easy-attic-greek">https://github.com/sleeptillseven/edwards-salamis-in-easy-attic-greek</a>.</p>
@@ -58,8 +58,6 @@ for WORK in WORK_LIST:
                 if len(ref) == 2:
                     section = None
                     chapter, verse = ref
-                    print("**** chapter: " + chapter)
-                    print("**** verse: " + verse)
                 else:
                     section, chapter, verse = ref
                 if prev_section != section:
