@@ -28,13 +28,13 @@ for WORK in WORK_LIST:
     <title>{TITLE}</title>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700&amp;subset=greek,greek-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alpheios-components@latest/dist/style/style-components.min.css"/>
     <link href="style.css" rel="stylesheet">
     </head>
     <body>
-      <div class="container">
+      <div class="container alpheios-enabled" lang="grc">
       <nav>&#x2191; <a href="./">Stoffel's An Epitome Of The New Testament</a></nav>
     """
-      #<h1 lang="en">{TITLE}</h1>
 
     FOOTER = """\
         <br/><br/>
@@ -43,6 +43,23 @@ for WORK in WORK_LIST:
         <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
         <p>The source is available at <a href="https://github.com/sleeptillseven/edwards-salamis-in-easy-attic-greek">https://github.com/sleeptillseven/edwards-salamis-in-easy-attic-greek</a>.</p>
       </div>
+      <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function(event) {
+            import ("https://cdn.jsdelivr.net/npm/alpheios-embedded@latest/dist/alpheios-embedded.min.js").then(embedLib => {
+                window.AlpheiosEmbed.importDependencies({
+                mode: 'cdn'
+                }).then(Embedded => {
+                new Embedded({
+                    clientId: 'sleeptillseven_stoffel_epitome'
+                }).activate();
+                }).catch(e => {
+                console.error(`Import of Alpheios embedded library dependencies failed: ${e}`)
+                })
+            }).catch(e => {
+                console.error(`Import of Alpheios Embedded library failed: ${e}`)
+            })
+            });
+        </script>
     </body>
     </html>
     """
