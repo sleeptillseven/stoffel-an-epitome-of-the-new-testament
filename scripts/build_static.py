@@ -15,7 +15,7 @@ TITLES = {
 
 
 for WORK in WORK_LIST:
-    print(WORK)
+    print("===> " + WORK)
     SRC = f"../text/stoffel-epitome-{WORK}.txt"
     DEST = f"../docs/stoffel-epitome-{WORK}.html"
 
