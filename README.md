@@ -18,7 +18,7 @@ This text is being prepared as part of the [Greek Learner Texts Project](https:/
 * OCR 100% done
 * corrections:
    * introduction 100% done
-   * main text 21% (39/185) done
+   * main text 28% (52/185) done
 
 ## License
 
