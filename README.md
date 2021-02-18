@@ -1,6 +1,6 @@
 # Stoffel's Epitome Of The New Testament
 
-A repository for a digitisation effort of _Stoffel's Epitome Of The New Testament. A HTML version is provided [here](https://sleeptillseven.github.io/stoffels-epitome-of-the-new-testament/).
+A repository for a digitisation effort of _Stoffel's Epitome Of The New Testament. A HTML version is provided [here](https://sleeptillseven.github.io/stoffel-an-epitome-of-the-new-testament/).
 
 This text is being prepared as part of the [Greek Learner Texts Project](https://greek-learner-texts.org/).
 
