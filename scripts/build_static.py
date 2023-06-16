@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 
-from roman_numerals import convert_to_numeral
-
-
 WORK_LIST = [
     "introduction",
     "main",
