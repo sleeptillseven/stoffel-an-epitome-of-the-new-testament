@@ -74,6 +74,14 @@ for WORK in WORK_LIST:
                     chapter, verse = ref
                 else:
                     section, chapter, verse = ref
+                    if prev_chapter == section and chapter not in [None, "0", "text", "title", "subtitle"] and verse == "highlight":
+                        print("""    <div class="subscription">""", file=g)
+                        print(f"""      <h4 class="epilogue_title">{parts[1]}</h4>""", file=g)
+                        print("   </div>", file=g)
+                        verse = chapter
+                        chapter = section
+                        section = None
+                        continue
                 if prev_section != section:
                     if prev_section is not None:
                         print("   </div>""", file=g)
