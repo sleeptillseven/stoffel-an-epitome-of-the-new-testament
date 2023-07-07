@@ -904,7 +904,7 @@
 | ἑσπέρα                                      | evening                                                                                                              |
 | ἔσχατος, -η, -ον                            | last, extreme                                                                                                        |
 | ἑταῖρος, -ου, ὁ                             | companion, comrade                                                                                                   |
-| ἔτερος, α, ον                               | the other                                                                                                            |
+| ἕτερος, α, ον                               | the other                                                                                                            |
 | ἔτι                                         | still, yet                                                                                                           |
 | ἑτοιμάζω                                    | make ready, prepare                                                                                                  |
 | ἑτοῖμος, -η, -ον                            | ready                                                                                                                |
