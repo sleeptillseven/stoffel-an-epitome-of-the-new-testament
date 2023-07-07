@@ -1,6 +1,6 @@
 name: Text validation
 
-on: [pull_request] # TODO: re-add push later, right now it's an obstacle
+on: [push, pull_request]
 
 jobs:
   build:
